@@ -5,6 +5,10 @@ import User from './user';
 
 export default class UserList extends Component {
 
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		let userList = [];
 		for(let i = 0; i < 4; i++) {

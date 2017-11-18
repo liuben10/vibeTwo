@@ -1,16 +1,22 @@
 import React, {Component} from 'react';
 import { StyleSheet, View} from 'react-native';
 import { Header} from 'react-native-elements';
+import { connect } from 'react-redux';
+import { setLocation } from "../actions/locations";
+import { fetchUsersForLocation } from "../actions/users";
+
+
 import Footer from './footer';
 import UserList from './userList';
 import AddUser from './addUser';
 import FriendsList from './friendsList';
+import Api from '../lib/Api';
 
 const DISCOVERING = 0;
 const FRIENDS = 1;
 const MESSAGES = 2;
 
-export default class Vibe extends Component {
+class Vibe extends Component {
 
 	constructor(props) {
 		super(props);
@@ -18,11 +24,19 @@ export default class Vibe extends Component {
 		this.state = {
 			appState: DISCOVERING,
 			friendsDb: [],
-		}
+		};
+
+		this.initializeLocation();
 	}
 
-	addFriend (friend) {
-		this.state.friendsDb.push(friend);
+	initializeLocation() {
+		navigator.geolocation.getCurrentPosition(
+			(position) => {
+				this.props.setCurrentLocation(position);
+			},
+			(error) => alert(error.message),
+			{enableHighAccuracy: true, timeout: 20000, maximumAge: 1000}
+		);
 	}
 
 	renderFactory (state) {
@@ -32,7 +46,6 @@ export default class Vibe extends Component {
 	};
 
 	render() {
-
 		let renderDiscovering = this.renderFactory(DISCOVERING);
 		let renderFriends = this.renderFactory(FRIENDS);
 		let renderMessages = this.renderFactory(MESSAGES);
@@ -61,6 +74,24 @@ export default class Vibe extends Component {
 	}
 }
 
+const mapStateToProps = (state) => {
+
+	return {
+		location: state.location
+	}
+};
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+	return {
+		setCurrentLocation: (location) => {
+			dispatch(setLocation(location));
+			dispatch(fetchUsersForLocation(location));
+		},
+		dispatch: dispatch
+	}
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Vibe);
 
 const styles = StyleSheet.create({
 	leftComponent: {
