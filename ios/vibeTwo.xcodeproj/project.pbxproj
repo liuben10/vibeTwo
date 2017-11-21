@@ -35,16 +35,21 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* vibeTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vibeTwoTests.m */; };
 		4042161BF7404E3C9F4FD30A /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94CBE2E65C1A451C8A14E841 /* Octicons.ttf */; };
+		464BFEEFE467C0B4574650CA /* Pods_vibeTwoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059B723CA1FFA99B5FD831B3 /* Pods_vibeTwoTests.framework */; };
 		474048A045B744AA991C09BF /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06F5524F3DE64614A128991D /* Zocial.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		73AEE31D36D84B588B6FC240 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D08A521114C4271A6509434 /* FontAwesome.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9606BE141FC0F7EA00728349 /* libBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9606BDF01FC0F7CD00728349 /* libBleManager.a */; };
+		9619D4401FC39D9D00FD8A49 /* libOAuthManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9606BE2A1FC0FB8700728349 /* libOAuthManager.a */; };
 		9FA1E303E5654BFAA9E2ED2F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 736020AE421444D0AF7B5D23 /* Ionicons.ttf */; };
 		A5B5C468D56D4FF5B969D0A1 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E001207B26C4F6ABFCC1B3C /* MaterialIcons.ttf */; };
+		AC54B6EFD4F25358AEA208EE /* Pods_vibeTwo_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8548582A11F8F1E3B1D8245D /* Pods_vibeTwo_tvOS.framework */; };
 		AD8363479C2C4385A075D807 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40F468F69B3B40FB9A5215A1 /* EvilIcons.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B4DCC5754A1C46649AD3F248 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17207C383D9D4519B1113565 /* Entypo.ttf */; };
+		B701FEFCE1073518A64E33F2 /* Pods_vibeTwo_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06678F3EF59D5250C60D3F95 /* Pods_vibeTwo_tvOSTests.framework */; };
+		BF1C0FB02388FC4E62C5B5BF /* Pods_vibeTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CBADFFF2B7A300E6DD048E /* Pods_vibeTwo.framework */; };
 		BFC1057DEF1E4D6AA166AC8B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0569CE3E5DA6492D8EB4B980 /* Foundation.ttf */; };
 		C4AC7BE6541E48AEB89BF110 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18DEBCC4CCFA464FADB6155F /* Feather.ttf */; };
 		D1D4BC016A2B4313820D241B /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B391A829D1244ABB046CA57 /* SimpleLineIcons.ttf */; };
@@ -332,7 +337,10 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* vibeTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vibeTwoTests.m; sourceTree = "<group>"; };
 		0569CE3E5DA6492D8EB4B980 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		059B723CA1FFA99B5FD831B3 /* Pods_vibeTwoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibeTwoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06678F3EF59D5250C60D3F95 /* Pods_vibeTwo_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibeTwo_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F5524F3DE64614A128991D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		080766C48FD938BA949D5C17 /* Pods-vibeTwo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwo-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwo-tvOSTests/Pods-vibeTwo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* vibeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vibeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -346,22 +354,31 @@
 		16451DD9411048008AA10269 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		17207C383D9D4519B1113565 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		18DEBCC4CCFA464FADB6155F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		18E87850EDD8A28CADB9C5B4 /* Pods-vibeTwo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwo-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwo-tvOS/Pods-vibeTwo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		26CBADFFF2B7A300E6DD048E /* Pods_vibeTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibeTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* vibeTwo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vibeTwo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* vibeTwo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vibeTwo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3294C399BE477CD904C4B8C5 /* Pods-vibeTwoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwoTests/Pods-vibeTwoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40F468F69B3B40FB9A5215A1 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6180519378CF417D897EB63E /* OAuthManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = OAuthManager.xcodeproj; path = "../node_modules/react-native-oauth/ios/OAuthManager.xcodeproj"; sourceTree = "<group>"; };
 		6B73F8A8E5064ED787EAA1BA /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		736020AE421444D0AF7B5D23 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		77ABB60D5FFF09F78E2AF063 /* Pods-vibeTwo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwo-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwo-tvOS/Pods-vibeTwo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		83BEECBEF20041B184423E95 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		8548582A11F8F1E3B1D8245D /* Pods_vibeTwo_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vibeTwo_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CBE2E65C1A451C8A14E841 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		9606BDEB1FC0F7CD00728349 /* BleManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BleManager.xcodeproj; path = "../node_modules/react-native-ble-manager/ios/BleManager.xcodeproj"; sourceTree = "<group>"; };
 		9B391A829D1244ABB046CA57 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		9D08A521114C4271A6509434 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		9E001207B26C4F6ABFCC1B3C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		A667D3C2A20727875339DD78 /* Pods-vibeTwo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwo-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwo-tvOSTests/Pods-vibeTwo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		CB9B44D22444DA29B9354EE6 /* Pods-vibeTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwo.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwo/Pods-vibeTwo.release.xcconfig"; sourceTree = "<group>"; };
+		E4B15EEC46E1A512FC9E4FC1 /* Pods-vibeTwoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwoTests/Pods-vibeTwoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF0BADE23704CB01C3FCF300 /* Pods-vibeTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vibeTwo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vibeTwo/Pods-vibeTwo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				464BFEEFE467C0B4574650CA /* Pods_vibeTwoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +395,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9619D4401FC39D9D00FD8A49 /* libOAuthManager.a in Frameworks */,
 				9606BE141FC0F7EA00728349 /* libBleManager.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
@@ -392,6 +411,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				DE7F9C6081224168854041DD /* libRNVectorIcons.a in Frameworks */,
+				BF1C0FB02388FC4E62C5B5BF /* Pods_vibeTwo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +427,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				AC54B6EFD4F25358AEA208EE /* Pods_vibeTwo_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +435,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B701FEFCE1073518A64E33F2 /* Pods_vibeTwo_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +554,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2092492FA268BDD5F84E84DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF0BADE23704CB01C3FCF300 /* Pods-vibeTwo.debug.xcconfig */,
+				CB9B44D22444DA29B9354EE6 /* Pods-vibeTwo.release.xcconfig */,
+				77ABB60D5FFF09F78E2AF063 /* Pods-vibeTwo-tvOS.debug.xcconfig */,
+				18E87850EDD8A28CADB9C5B4 /* Pods-vibeTwo-tvOS.release.xcconfig */,
+				A667D3C2A20727875339DD78 /* Pods-vibeTwo-tvOSTests.debug.xcconfig */,
+				080766C48FD938BA949D5C17 /* Pods-vibeTwo-tvOSTests.release.xcconfig */,
+				3294C399BE477CD904C4B8C5 /* Pods-vibeTwoTests.debug.xcconfig */,
+				E4B15EEC46E1A512FC9E4FC1 /* Pods-vibeTwoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FF2B93943A345539946F9D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,6 +646,7 @@
 				3FF2B93943A345539946F9D5 /* Resources */,
 				969678AA1FBFC504008DF0E9 /* Recovered References */,
 				9606BE131FC0F7EA00728349 /* Frameworks */,
+				2092492FA268BDD5F84E84DC /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -637,6 +675,10 @@
 		9606BE131FC0F7EA00728349 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26CBADFFF2B7A300E6DD048E /* Pods_vibeTwo.framework */,
+				8548582A11F8F1E3B1D8245D /* Pods_vibeTwo_tvOS.framework */,
+				06678F3EF59D5250C60D3F95 /* Pods_vibeTwo_tvOSTests.framework */,
+				059B723CA1FFA99B5FD831B3 /* Pods_vibeTwoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -681,9 +723,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vibeTwoTests" */;
 			buildPhases = (
+				D174BBA398579108785CB149 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				3605993151688FDAD0E27E49 /* [CP] Embed Pods Frameworks */,
+				CBF7F9B9A5849868061D3B41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -699,10 +744,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vibeTwo" */;
 			buildPhases = (
+				77922762E8E9A68984AC8046 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8AF79591C4752A8981BE366C /* [CP] Embed Pods Frameworks */,
+				55EAF0663D449387C1FABE80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -717,10 +765,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "vibeTwo-tvOS" */;
 			buildPhases = (
+				AC825820FBB31574C48BA75C /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
 				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				DED5C292AA9037B7CCB68467 /* [CP] Embed Pods Frameworks */,
+				11842521E6A931F4F908CF4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -735,9 +786,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "vibeTwo-tvOSTests" */;
 			buildPhases = (
+				DEC62A4EAAC068A645BACDBC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				B22A5B5CFD51B9E84D69FA40 /* [CP] Embed Pods Frameworks */,
+				91B7428A87E4610113A48082 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1171,6 +1225,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		11842521E6A931F4F908CF4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo-tvOS/Pods-vibeTwo-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1184,6 +1253,189 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3605993151688FDAD0E27E49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwoTests/Pods-vibeTwoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55EAF0663D449387C1FABE80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo/Pods-vibeTwo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77922762E8E9A68984AC8046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vibeTwo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF79591C4752A8981BE366C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo/Pods-vibeTwo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DCTAuth/DCTAuth.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCTAuth.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo/Pods-vibeTwo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91B7428A87E4610113A48082 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo-tvOSTests/Pods-vibeTwo-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC825820FBB31574C48BA75C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vibeTwo-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B22A5B5CFD51B9E84D69FA40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo-tvOSTests/Pods-vibeTwo-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF7F9B9A5849868061D3B41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwoTests/Pods-vibeTwoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D174BBA398579108785CB149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vibeTwoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC62A4EAAC068A645BACDBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vibeTwo-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED5C292AA9037B7CCB68467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo-tvOS/Pods-vibeTwo-tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DCTAuth/DCTAuth.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCTAuth.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vibeTwo-tvOS/Pods-vibeTwo-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1252,6 +1504,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3294C399BE477CD904C4B8C5 /* Pods-vibeTwoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1281,6 +1534,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B15EEC46E1A512FC9E4FC1 /* Pods-vibeTwoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1307,6 +1561,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0BADE23704CB01C3FCF300 /* Pods-vibeTwo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1316,12 +1571,8 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-oauth/ios/OAuthManager",
 					"$(SRCROOT)/../node_modules/react-native/Libraries/LinkingIOS",
-					"$(SRCROOT)/../node_modules/react-native-oauth/ios/OAuthManager/**",
 				);
-				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
-				);
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(inherited) $(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager";
 				INFOPLIST_FILE = vibeTwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1336,6 +1587,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9B44D22444DA29B9354EE6 /* Pods-vibeTwo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1344,7 +1596,6 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-oauth/ios/OAuthManager",
 					"$(SRCROOT)/../node_modules/react-native/Libraries/LinkingIOS",
-					"$(SRCROOT)/../node_modules/react-native-oauth/ios/OAuthManager/**",
 				);
 				INFOPLIST_FILE = vibeTwo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1360,6 +1611,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77ABB60D5FFF09F78E2AF063 /* Pods-vibeTwo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1395,6 +1647,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E87850EDD8A28CADB9C5B4 /* Pods-vibeTwo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1430,6 +1683,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A667D3C2A20727875339DD78 /* Pods-vibeTwo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1455,6 +1709,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080766C48FD938BA949D5C17 /* Pods-vibeTwo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

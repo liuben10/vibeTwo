@@ -1,0 +1,6 @@
+framework module Pods_vibeTwo {
+  umbrella header "Pods-vibeTwo-umbrella.h"
+
+  export *
+  module * { export * }
+}

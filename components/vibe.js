@@ -4,17 +4,17 @@ import { Header} from 'react-native-elements';
 import { connect } from 'react-redux';
 import { setLocation } from "../actions/locations";
 import { fetchUsersForLocation } from "../actions/users";
-
+import LoginPage from "../components/loginPage";
 
 import Footer from './footer';
 import UserList from './userList';
 import AddUser from './addUser';
 import FriendsList from './friendsList';
-import Api from '../lib/Api';
 
 const DISCOVERING = 0;
 const FRIENDS = 1;
 const MESSAGES = 2;
+const LOGIN = 3;
 
 class Vibe extends Component {
 
@@ -22,7 +22,7 @@ class Vibe extends Component {
 		super(props);
 
 		this.state = {
-			appState: DISCOVERING,
+			appState: LOGIN,
 			friendsDb: [],
 		};
 
@@ -50,8 +50,12 @@ class Vibe extends Component {
 		let renderFriends = this.renderFactory(FRIENDS);
 		let renderMessages = this.renderFactory(MESSAGES);
 
-		let mainComponent = (<UserList/>);
-		if (this.state.appState == FRIENDS) {
+		let mainComponent = (<LoginPage />);
+		if (this.state.appState == LOGIN) {
+			mainComponent = (<LoginPage />);
+		} else if (this.state.appState == DISCOVERING) {
+			mainComponent = (<UserList/>);
+		} else if (this.state.appState == FRIENDS) {
 			mainComponent = (<FriendsList/>);
 		}
 
@@ -68,6 +72,7 @@ class Vibe extends Component {
 					discoverSelect={renderDiscovering}
 					friendsSelect={renderFriends}
 					messagesSelect={renderMessages}
+
 				></Footer>
 			</View>
 		);
